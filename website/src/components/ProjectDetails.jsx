@@ -40,13 +40,12 @@ import { Link } from "react-router-dom";
         </p>
       </div>
       <div>
-        {images.map(img => 
-        <img
-        src={img}
-        alt="Project related view"></img>
-        )}
-      </div>
-      
+            {images.map(img => 
+            <img
+            src={img}
+            alt="Project related view"></img>
+            )}
+          </div>
     </div>
   </div>
   }
