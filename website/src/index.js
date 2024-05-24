@@ -66,7 +66,7 @@ const AboutPages = {
 // create the router -- paths are configured here
 const router = createBrowserRouter([
   {
-    path: "/johnston-web/",
+    path: "johnston-web/",
     element: <Navigation>
         <Splash></Splash>
     </Navigation>
