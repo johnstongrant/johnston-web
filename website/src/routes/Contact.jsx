@@ -1,28 +1,34 @@
 
+
 export default function Contact() {
+    const onButtonClick = (extension) => {
+        if (extension === "pdf") {
+            const pdfUrl = "grant-johnston-resume.pdf";
+            const link = document.createElement("a");
+            link.href = pdfUrl;
+            link.download = "johnston-grant-resume.pdf"; // specify the filename
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        } else {
+            const docx = "grant-johnston-resume.docx";
+            const link = document.createElement("a");
+            link.href = docx;
+            link.download = "johnston-grant-resume.docx"; // specify the filename
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+    };
 
     return(
-        <div className="bg-white">
-        <div className="mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-36">
-          <div>
-            <h2 className="text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">College</h2>
-            <p className="mt-4 text-gray-500">
-               Details
-            </p>
-          </div>
-          <div>
-            <h2 className="text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">Career</h2>
-            <p className="mt-4 text-gray-500">
-               Details
-            </p>
-          </div>   
-          <div>
-            <h2 className="text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">Whats Next</h2>
-            <p className="mt-4 text-gray-500">
-               Details
-            </p>
-          </div>  
+        <div className=" justify-center  min-w-full  grid grid-rows-1 grid-flow-row p-8">
+        <div className=" flex flex-row gap-4 mt-3">
+                <button className="hover:underline" onClick={() => onButtonClick("pdf")}>Download pdf</button>
+                <button className="hover:underline"onClick={() => onButtonClick("docx")}>Download docx</button>
         </div>
-      </div>
+    </div>
+
     )
 }

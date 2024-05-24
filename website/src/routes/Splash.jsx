@@ -1,4 +1,6 @@
 
+import Divider from "../components/Divider"
+import Footer from "../components/Footer"
 import self from "../images/self.jpeg"
 import About from "./About"
 import Contact from "./Contact"
@@ -7,8 +9,8 @@ import Project from "./Project"
 export default function Splash() {
 
     return (
-        <div className="bg-white">
-
+        <>
+        <div className="bg-gray-200">
             <div id="Head" className=" grid min-w-full grid-cols-1 gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div >
                 <h2 className="text-4xl text-center font-bold tracking-tight text-gray-900">Hello.</h2>
@@ -24,19 +26,33 @@ export default function Splash() {
                 alt="Grant Johnston"></img>
             </div>
             </div>
-            <div id="About" className=" grid min-w-full grid-cols-1 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
-                <span>About Me</span>
+            <div id="About" className="">
+                <Divider
+                    title={"About Me"}
+                ></Divider>
+            </div>
+            <div className="min-w-full">
                 <About></About>
             </div>
-            <div id="SelectedWork" className=" grid min-w-full grid-cols-2 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
-                <span>Selected Works</span>
+            <div id="SelectedWork">
+                <Divider
+                    title={"Selected Works"}
+                ></Divider>
+            </div>
+            <div className=" grid min-w-full grid-cols-2 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
                 <Project></Project>
             </div>
-            <div id="Contact" className="grid min-w-full grid-cols-2 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
-                <span>Reach Out</span>
+            <div id="Contact">
+                <Divider
+                title={"Resume"}
+                ></Divider>
+            </div>
+            <div  className="min-w-full">
                 <Contact></Contact>
             </div>
-        
+            <Footer></Footer>
       </div>
+      
+      </>
     )
 }
