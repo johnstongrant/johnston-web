@@ -1,4 +1,5 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Footer from './Footer'
 
 export default function Navigation(props) {
 
@@ -17,6 +18,7 @@ export default function Navigation(props) {
             <div>
                 {props.children}
             </div>
+            <Footer></Footer>
         </>
     )
 }

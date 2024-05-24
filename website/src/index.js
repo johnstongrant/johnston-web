@@ -15,13 +15,13 @@ import todolist from "./images/todolist.png"
 import markdown from "./images/markdown.png"
 import maze from "./images/maze.png"
 import Nav from './components/Nav';
-// TODO: Get images for remaining projects
+
 
 const AboutPages = {
   "CurrentSee": {
     title: "CurrentSee",
     description: 
-    "Built over the course of about six weeks,five others and I went to work on creating a personal finance tracking app. I served as the group leader for this project and ensured that features were being built on time and properly implemented. I also built out most of the skeleton and structure for this project by utilizing tools such as figma to map out the layout of this app. I learned a tremendous amount about how to be a positive leader and leave an impact within a team of multiple developers and throughouly enjoyed building this app.",
+    "Built over the course of about six weeks, five others and I went to work on creating a personal finance tracking app. I served as the group leader for this project and ensured that features were being built on time and properly implemented. I also built out most of the skeleton and structure for this project by utilizing tools such as figma to map out the layout of this app. I learned a tremendous amount about how to be a positive leader and leave an impact within a team of multiple developers and throughouly enjoyed building this app.",
     link: "https://jolly-hill-0543a4310.5.azurestaticapps.net/",
     images: [transaction],
   },
@@ -141,6 +141,7 @@ const router = createBrowserRouter([
       images={AboutPages["Drone Simulation"].images}></ProjectDetails>
     </Nav>
   },
+  
   
 ]);
 

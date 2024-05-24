@@ -1,5 +1,6 @@
 
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
 
 export default function Nav(props) {
 
@@ -13,6 +14,8 @@ export default function Nav(props) {
             <div>
                 {props.children}
             </div>
+            <Footer></Footer>
+            
         </>
     )
 }
