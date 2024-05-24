@@ -72,7 +72,7 @@ const router = createBrowserRouter([
     </Navigation>
   },
   {
-    path: "johnston-web/CurrentSee",
+    path: "/CurrentSee",
     element: <Nav>
       <ProjectDetails
       title={AboutPages["CurrentSee"].title}
@@ -82,7 +82,7 @@ const router = createBrowserRouter([
     </Nav>
   },
   {
-    path: "johnston-web/AndDone",
+    path: "/AndDone",
     element: <Nav>
       <ProjectDetails
       title={AboutPages["AndDone"].title}
@@ -92,7 +92,7 @@ const router = createBrowserRouter([
     </Nav>
   },
   {
-    path: "johnston-web/Tracks",
+    path: "/Tracks",
     element: <Nav>
       <ProjectDetails
       title={AboutPages["Tracks"].title}
@@ -102,7 +102,7 @@ const router = createBrowserRouter([
     </Nav>
   },
   {
-    path: "johnston-web/The Maze",
+    path: "/The Maze",
     element: <Nav>
       <ProjectDetails
       title={AboutPages["The Maze"].title}
@@ -112,7 +112,7 @@ const router = createBrowserRouter([
     </Nav>
   },
   {
-    path: "johnston-web/Class Scraper",
+    path: "/Class Scraper",
     element: <Nav>
       <ProjectDetails
       title={AboutPages["Class Scraper"].title}
@@ -122,7 +122,7 @@ const router = createBrowserRouter([
     </Nav>
   },
   {
-    path: "johnston-web/Swish Terminal",
+    path: "/Swish Terminal",
     element: <Nav>
       <ProjectDetails
       title={AboutPages["Swish Terminal"].title}
@@ -132,7 +132,7 @@ const router = createBrowserRouter([
     </Nav>
   },
   {
-    path: "johnston-web/Drone Simulation",
+    path: "/Drone Simulation",
     element: <Nav>
       <ProjectDetails
       title={AboutPages["Drone Simulation"].title}
