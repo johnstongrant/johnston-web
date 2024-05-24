@@ -66,13 +66,13 @@ const AboutPages = {
 // create the router -- paths are configured here
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/johnston-web/",
     element: <Navigation>
         <Splash></Splash>
     </Navigation>
   },
   {
-    path: "/CurrentSee",
+    path: "/johnston-web/CurrentSee",
     element: <Nav>
       <ProjectDetails
       title={AboutPages["CurrentSee"].title}
@@ -82,7 +82,7 @@ const router = createBrowserRouter([
     </Nav>
   },
   {
-    path: "/AndDone",
+    path: "/johnston-web/AndDone",
     element: <Nav>
       <ProjectDetails
       title={AboutPages["AndDone"].title}
@@ -92,7 +92,7 @@ const router = createBrowserRouter([
     </Nav>
   },
   {
-    path: "/Tracks",
+    path: "/johnston-web/Tracks",
     element: <Nav>
       <ProjectDetails
       title={AboutPages["Tracks"].title}
@@ -102,7 +102,7 @@ const router = createBrowserRouter([
     </Nav>
   },
   {
-    path: "/The Maze",
+    path: "/johnston-web/The Maze",
     element: <Nav>
       <ProjectDetails
       title={AboutPages["The Maze"].title}
@@ -112,7 +112,7 @@ const router = createBrowserRouter([
     </Nav>
   },
   {
-    path: "/Class Scraper",
+    path: "/johnston-web/Class Scraper",
     element: <Nav>
       <ProjectDetails
       title={AboutPages["Class Scraper"].title}
@@ -122,7 +122,7 @@ const router = createBrowserRouter([
     </Nav>
   },
   {
-    path: "/Swish Terminal",
+    path: "/johnston-web/Swish Terminal",
     element: <Nav>
       <ProjectDetails
       title={AboutPages["Swish Terminal"].title}
@@ -132,7 +132,7 @@ const router = createBrowserRouter([
     </Nav>
   },
   {
-    path: "/Drone Simulation",
+    path: "/johnston-web/Drone Simulation",
     element: <Nav>
       <ProjectDetails
       title={AboutPages["Drone Simulation"].title}
