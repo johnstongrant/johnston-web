@@ -33,13 +33,13 @@ const AboutPages = {
   },
   "Tracks": {
     title: "Tracks",
-    description: "A streamlined todo list app that served as my personal playground in react. I was learning out to use react to make a single page web application and this todo list was borne from trial and error and experimentation.",
+    description: "A streamlined todo list app that served as my personal playground in react. Throughout my process of trial and error im happy with what I was able to build in a short few weeks.",
     link: "https://orange-field-0891ce80f.5.azurestaticapps.net/",
     images: [todolist],
   },
   "Class Scraper": {
     title: "Class Scraper",
-    description: "After graduation I was left with a multitude of canvas pages with really valuable information that I knew one day would go away. Because of this I spent some time building a web scraper to quickly fetch a couple of my course's webpages and turned them into markdown files so that if I ever needed to refresh my knowledge the informaiton would be one click away.",
+    description: "After graduation I was left with a multitude of canvas pages with really valuable information that I knew one day would go away. Because of this I spent some time building a web scraper to quickly fetch a couple of my course's webpages and turned them into markdown files so that if I ever need to refresh my knowledge the informaiton will be one click away.",
     link: "https://github.com/johnstongrant/web-scraper-canvas",
     images: [markdown],
   },
@@ -57,7 +57,7 @@ const AboutPages = {
   },
   "Drone Simulation": {
     title: "Drone Simulation",
-    description: "A last horray if you will. This was one of my upper divison projects that we spend the entire semester brainstorming and working on the development cycle of computing. In the end I learned what it means to work within an Agile development process and collaborate with others within the field of computer science.",
+    description: "A last horray if you will. This was one of my upper divison projects that we spent the entire semester brainstorming and working on, while also learning the development cycle of computing along the way. In the end I've learned  what it means to work within an Agile development process and collaborate with others within the field of computer science.",
     link: "",
     images: [],
   }
