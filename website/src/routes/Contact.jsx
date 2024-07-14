@@ -3,18 +3,18 @@
 export default function Contact() {
     const onButtonClick = (extension) => {
         if (extension === "pdf") {
-            const pdfUrl = "grant-johnston-resume.pdf";
+            const pdfUrl = "grant-johnston-1.pdf";
             const link = document.createElement("a");
             link.href = pdfUrl;
-            link.download = "johnston-grant-resume.pdf"; // specify the filename
+            link.download = "johnston-grant-1.pdf"; // specify the filename
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
         } else {
-            const docx = "grant-johnston-resume.docx";
+            const docx = "grant-johnston-1.docx";
             const link = document.createElement("a");
             link.href = docx;
-            link.download = "johnston-grant-resume.docx"; // specify the filename
+            link.download = "johnston-grant-1.docx"; // specify the filename
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
